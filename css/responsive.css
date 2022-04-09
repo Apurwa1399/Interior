@@ -1,0 +1,288 @@
+/* Desktop */
+@media (max-width: 1024px) {
+	.arrow {
+		position: absolute;
+		bottom: 28%;
+		left: 38%;
+	}
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+	h2 {
+		font-size: 40px;
+	  }
+	  p {
+		font-size: 16px;
+		padding: 5px 0px;
+	  }
+	  .buttn {
+		background-color: var(--primaryColor);
+		text-decoration: none;
+		color: var(--secondaryColor);
+	  }
+	.carousel-caption {
+		top: 21% !important;
+	}
+	.carousel-caption h1 {
+		font-size: 44px;
+		line-height: 66px;
+	}
+	.booking-form form button {
+		margin-top: 5%;
+	  }
+	  .arrow {
+      left: 46%;
+      bottom: 10%;   
+	  }
+	  
+  /* service */
+  .srv-box {
+    background-color: var(--secondaryColor);
+    transition: all 0.7s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 45px 25px 27px;
+  }
+  .srv-box p {
+    color: var(--thirdColor);
+    font-size: 16px;
+  }
+  .srv-box h5 {
+    color: var(--thirdColor);
+    font-size: 15px;
+  }
+  .srv-box .srv-icon {
+    cursor: pointer;
+    animation-name: bounce;
+    -moz-animation-name: bounce;
+  }
+
+  /* Skills */
+  .skills {
+    padding: 7% 7%;
+  }
+.hide{display: none}
+.exp h2 {
+  font-size: 34px;
+}
+}
+/* Mobile */
+@media (max-width: 568px) {
+
+  /* common classes */
+  h2 {
+    font-size: 33px;
+  }
+  p {
+    font-size: 16px;
+    padding: 10px 0px;
+  }
+  .buttn {
+    background-color: var(--primaryColor);
+    text-decoration: none;
+    color: var(--secondaryColor);
+  }
+
+  /* slider */
+  .container-slider {
+    margin: 0px;
+  }
+  .carousel-caption {
+    top: 20% !important;
+}
+  .carousel-caption h1 {
+    font-size: 30px;
+    line-height: 60px;
+}
+  .carousel-caption P {
+    font-size: 15px;
+    line-height: 9px;
+}
+  .booking-form form button {
+    margin-top: 10%;
+  }
+
+  /* feature */
+  .feature-details {
+	padding: 19px 0px 19px 2px;
+    left: 53%;
+    top: 37%;
+}
+  .swiper-button-next,
+  .swiper-button-prev {
+    padding: 27px 26px;
+  }
+  .arrow {
+    bottom: 8%;
+    left: 42%;
+  }
+  .feature-details h4 {
+    font-size: 16px;
+  }
+  .feature-details p {
+    font-size: 14px;
+  }
+
+  /* service */
+  .srv-box {
+    background-color: var(--secondaryColor);
+    transition: all 0.7s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 45px 25px 27px;
+  }
+  .srv-box p {
+    color: var(--thirdColor);
+    font-size: 16px;
+  }
+  .srv-box h5 {
+    color: var(--thirdColor);
+    font-size: 15px;
+  }
+  .srv-box .srv-icon {
+    cursor: pointer;
+    animation-name: bounce;
+    -moz-animation-name: bounce;
+  }
+
+  /* Skills */
+  .skills {
+    padding: 0 7%;
+  }
+
+  /* Team */
+  .team .box .overlay {
+    opacity: 0.85;
+  }
+  .team .box .social-icons {
+    margin-top: 0;
+    opacity: 1;
+  }
+  .team .box{
+	transform: translateY(-15px);
+  }
+  
+  /*Blog */
+  .blog {
+    margin: 0% 2%;
+  }
+
+ /* footer */
+ .footer {
+    background: url(../images/footer-bg.jpg) no-repeat;
+    padding: 15px 0px 0px;
+	background-size: cover;
+ }
+ .footer h3 {
+    font-size: 20px;
+    padding-bottom: 0;
+ }
+ .footer p {
+    font-size: 14px;
+    padding: 6px 0;
+ }
+
+
+ /* About-us-page */
+ .contact p {
+  padding:0px;
+}
+h3 {
+  font-size: 30px;;
+}
+}
+
+@media (max-width:480px){
+	.feature-details {
+		left: 53%;
+		top: 27%;
+	}
+	.arrow {
+		bottom: 8%;
+		left: 37%;
+	}
+}
+@media (max-width: 425px) {
+	.carousel-caption {
+		top: 16% !important;
+	}
+	.carousel-caption h1 {
+		font-size: 20px;
+		line-height: 35px;
+	}
+	.carousel-caption P {
+		font-size: 14px;
+		line-height: 0px;
+	}
+	.feature-details p {
+		font-size: 12px;
+	}
+	.feature-details {
+		padding: 19px 0px 19px 5px;
+		left: 52%;
+		top:22%
+	}
+	.arrow {
+		bottom: 12%;
+		left: 37%;
+	}
+  .form-bg {
+    padding: 60%;
+    left: -36px;
+}
+}
+	@media (max-width:380px)
+	{
+		.carousel-caption {
+			top: 8% !important;
+		  }
+		  .carousel-caption P {
+			font-size: 10px;
+			line-height: 12px;
+		  }
+		  .carousel-caption h1 {
+			font-size: 19px;
+			line-height: 18px;
+		  }
+		  .feature-details {
+			padding: 19px 0px 19px 2px;
+			left: 53%;
+			top: 15%;
+		}
+		  .feature-details p {
+			font-size: 12px;
+		  }
+		  .arrow {
+			bottom: 12%;
+			left: 37%;
+		}
+		p {
+      font-size: 11px;
+      padding: 10px 0px;
+  }
+	}
+	
+@media (max-width: 320px){
+.feature-details {
+	padding: 19px 0px 19px 2px;
+    left: 53%;
+    top: 0%;
+}
+.arrow {
+    bottom: 15%;
+    left: 34%;
+}
+.contact-details {
+  position: absolute;
+  top: 22%;
+}
+.form-bg h3 {
+  font-size: 22px;
+}
+.form-bg {
+  padding: 65%;
+  left: -48px;
+}
+label {
+  font-size: 13px;
+}
+}
